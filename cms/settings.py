@@ -49,6 +49,8 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
+
 ROOT_URLCONF = 'cms.urls'
 
 WSGI_APPLICATION = 'cms.wsgi.application'
